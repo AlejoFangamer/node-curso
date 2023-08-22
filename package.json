@@ -1,0 +1,12 @@
+{
+  "name": "node-curso",
+  "version": "1.0.0",
+  "description": "Esto es un curso de Node.js",
+  "main": "index.js",
+  "scripts": {
+    "s": "node 02-modulos-nativos/1-os.js"
+  },
+  "keywords": [],
+  "author": "Alejandro Moreno",
+  "license": "MIT"
+}
