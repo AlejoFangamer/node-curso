@@ -4,9 +4,13 @@
   "description": "Esto es un curso de Node.js",
   "main": "index.js",
   "scripts": {
-    "s": "node 02-modulos-nativos/1-os.js"
+    "s": "node 02-modulos-nativos/4.4-fs-readFileAsync-Await.js",
+    "os": "node ejercicios/1-os.mjs"
   },
   "keywords": [],
   "author": "Alejandro Moreno",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.3.0"
+  }
 }
