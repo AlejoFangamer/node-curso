@@ -5,12 +5,15 @@
   "main": "index.js",
   "scripts": {
     "s": "node 02-modulos-nativos/4.4-fs-readFileAsync-Await.js",
-    "os": "node ejercicios/1-os.mjs"
+    "os": "node ejercicios/1-os.mjs",
+    "pro": "node 02-modulos-nativos/2-process.js",
+    "saludar": "node ejercicios/2-process.js"
   },
   "keywords": [],
   "author": "Alejandro Moreno",
   "license": "MIT",
   "dependencies": {
-    "chalk": "^5.3.0"
+    "chalk": "5.3.0",
+    "dotenv": "16.3.1"
   }
 }

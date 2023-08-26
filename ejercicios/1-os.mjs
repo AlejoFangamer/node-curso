@@ -34,7 +34,7 @@ c(chalk.bgYellow.black.bold.underline("Informacion del sistema operativo:"));
 c(chalk.yellow.bold.italic("Plataforma:"), os.platform());
 c(chalk.yellow.bold.italic("Arquitectura:"), os.arch());
 c(chalk.yellow.bold.italic("Versión:"), os.version());
- 
+
 c(sep);
 
 c(chalk.bgHex("#70B2FF").black.bold.underline("Directorio de usuario:"));

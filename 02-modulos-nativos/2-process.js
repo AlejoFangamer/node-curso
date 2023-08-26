@@ -1,3 +1,5 @@
+
+require("dotenv").config;
 const process = require("node:process");
 
 console.log(process.cwd());
