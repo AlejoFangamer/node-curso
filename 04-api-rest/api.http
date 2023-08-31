@@ -1,0 +1,8 @@
+### Obtener el home de la API
+GET http://localhost:3000/ 
+
+### Obtener todos los usuarios
+GET http://localhost:3000/usuarios 
+
+### Obtener usuario
+GET http://localhost:3000/usuarios/1
