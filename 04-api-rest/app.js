@@ -170,7 +170,7 @@ app.patch("/movies/:id", (req, res) => {
 });
 
 app.delete("/movies/:id", (req, res) => {
-  const indicePelicula = movies.findIndex((nombre) => nombre.id == req.params);
+  const indicePelicula = movies.findIndex((nombre) => nombre.id == req.params.id);
 
   if (indicePelicula === -1) {
     return res.status(204).send();
